@@ -1,0 +1,78 @@
+body {
+    background-color: gray;
+    color: white;
+}
+
+header, main, nav, footer {
+    text-align: center;
+}
+
+footer {
+    font-size: 1em;
+    color: black;
+}
+
+h1 {
+    font-family: 'Tahoma', sans-serif;
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+
+/* Links within nav container */
+nav a {
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none;   /* Remove underline */
+    color: White; /* Links are blue by default */
+}
+
+nav a:hover {
+    border-bottom: 2px blue solid;
+    font-size: 2em;
+    transition: 0.9s; /* Transition effect */
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    margin: 0px auto;
+}
+
+td {
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+
+td strong {
+    color: teal;
+}
+
+#table-header {
+    background-color: black;
+}
+
+.table-row {
+    background-color: black;
+}
+
+ui {
+    padding-left: 200px;
+    text-align: left;
+}
+
+.hobby {
+    color: blue;
+}
+
+.active-page {
+    border-bottom: 2px darkcyan solid;
+    font-weight: bold;
+}
+
+#content {
+    text-align: center;
+}
