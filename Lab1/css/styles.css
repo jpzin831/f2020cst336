@@ -1,6 +1,6 @@
 body {
-    background-color: black;
-    color: darkcyan;
+    background-color: gray;
+    color: white;
 }
 
 header, main, nav, footer {
@@ -9,11 +9,11 @@ header, main, nav, footer {
 
 footer {
     font-size: 1em;
-    color: lightseagreen;
+    color: black;
 }
 
 h1 {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Tahoma', sans-serif;
     font-size: 4em;
     margin-bottom: 0px;
 }
@@ -24,11 +24,11 @@ nav a {
     padding-bottom: 4px;
     font-size: 1.8em;
     text-decoration: none;   /* Remove underline */
-    color: cornflowerblue; /* Links are blue by default */
+    color: White; /* Links are blue by default */
 }
 
 nav a:hover {
-    border-bottom: 2px orange solid;
+    border-bottom: 2px blue solid;
     font-size: 2em;
     transition: 0.9s; /* Transition effect */
 }
@@ -48,15 +48,15 @@ td {
 }
 
 td strong {
-    color: orange;
+    color: teal;
 }
 
 #table-header {
-    background-color: #351a00;
+    background-color: black;
 }
 
 .table-row {
-    background-color: lightgray;
+    background-color: black;
 }
 
 ui {
@@ -65,7 +65,7 @@ ui {
 }
 
 .hobby {
-    color: yellow;
+    color: blue;
 }
 
 .active-page {
