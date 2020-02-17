@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+	background-image: url("../img/supplies.jpg");
+    background-size: cover;
+}
+
+table {
+    margin: 0px auto;
+background-color: pink;
+}
+
+.table-bordered {
+   border-color: purple;
+   border-spacing: 10px;
+   
+}
+
+.product {
+    width: 250px;
+}
+
+#noError {
+    font-size: 30pt;
+    font-weight: bold;
+    color: black;	
+}
+
+.jumbotron{
+    background-color: pink;
+}
