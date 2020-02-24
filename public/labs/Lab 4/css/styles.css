@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+}
+
+.col-sm-4 {
+    margin: 0 auto; 
+    display:table;
+    text-align: left;
+}
+
+fieldset {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+legend {
+    text-align: left;
+    font-size: 40px;
+}
+.border {
+    margin: 5em auto;
+    padding: 3em;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 0px rgba(0, 0, 0, 0.1);
+}
+.m-field {
+    margin: 1em 0;
+}
