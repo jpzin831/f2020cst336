@@ -1,11 +1,18 @@
-<!DOCTYPE html>
-<html>
- <head>
-  <title>The Solar System</title>
- </head>
+<%- include('partials/header.ejs') %>
  <body>
      <h1>Welcome to Mercury</h1>
-    
+    <img src="/img/mercury.png" alt="Solar System" />
+  
+    <p>Some fun facts about Mercury:</p><br>
+            <p>Mercury is the smallest planet.</p><br>
+            <p>Mercury does not have a single moon!</p><br>
+            <p>Mercury is the closest planet to the sun.</p><br>
             
- </body>
-</html>
+  <p class="menu">Click on a planet to know more about it:</p>
+        
+            <a href="/mercury">Mercury</a><br>
+            <a href="/venus">Venus</a><br>
+            <a href="/earth">Earth</a> <br> 
+            <a href="/">Home</a>
+            
+<%- include('partials/footer.ejs') %>
