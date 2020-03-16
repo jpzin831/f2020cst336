@@ -16,6 +16,6 @@ app.get("/venus", function(req,res){
     res.send("This is venus");
 });
 
-app.listen(process.env.PORT, function(){
-	console.log("Server is up");
+app.listen(process.env.PORT, process.env.IP, function(){
+	console.log("Running Express Server...");
 });
